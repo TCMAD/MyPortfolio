@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+
+        <title>My Potofolio</title>
+        <link rel="stylesheet" href="styles/magic.css">
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+        <link href="styles/my_portfolio.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="plugin/aos/aos.css">
+    </head>
+
+
+    <body>
+
+
+        <main id="Accueil">
+          <!-- The overlay -->
+            <div id="myNav" class="overlay">
+
+              <!-- Button to close the overlay navigation -->
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+
+              <!-- Overlay content -->
+              <div class="overlay-content">
+                <a class="js-scrollTo" href="#Accueil">Accueil</a>
+                <a class="js-scrollTo" href="#Profil">Profil</a>
+                <a class="js-scrollTo" href="#Competences">Compétences</a>
+                <a class="js-scrollTo" href="#contact">Contact</a>
+                <a class="js-scrollTo" href="#Projets">Mes projets</a>
+              </div>
+
+            </div>
+            <div class="conteneur">
+              <header>
+                <div id="menu_icon" onclick="openNav()">
+                    <div class="bar_icon"></div>
+                    <div class="bar_icon"></div>
+                    <div class="bar_icon"></div>
+                </div>
+
+                <div id="title">
+                  <h1 class="color_blue">Thomas CASCA</h1>
+                  <h2 class="color_blue">{Etudiant, Codeur}</h2>
+                </div>
+                <nav>
+                <ul>
+                  <li><a class="js-scrollTo color_gray" href="#Accueil">Accueil</a></li>
+                  <li><a class="js-scrollTo color_gray" href="#Profil">Profil</a></li>
+                  <li><a class="js-scrollTo color_gray" href="#contact">Contact</a></li>
+                </ul>
+                </nav>
+              </header>
+
+              <section>
+                <aside>
+                  <img id="avatar" src="images/avataaars.png" alt="avatar"></aside>
+                    <!--Photo d'identité-->
+                  <div id="corp_text">
+                        <aside>
+                      <h3 class="color_blue">Bonjour,</h3>
+                      <h4 class="color_blue">A propos de moi</h4>
+                    </aside>
+                    <aside id="mini_nav">
+                      <ul>
+                        <li class="cercle"><a class="js-scrollTo color_white" href="#Competences">COMPETENCE</a></li>
+                        <li class="cercle"><a class="js-scrollTo color_white" href="#Profil">PROFIL</a></li>
+                        <li class="cercle"><a class="js-scrollTo color_white" href="#Projets">MES PROJETS</a></li>
+                      </ul>
+                    </aside>
+                    <article>
+                      <p class="color_blue">
+                        Jeune étudiant universitaire, passionné d'informatique, de web, d'ingénieurie et de nouvelles technologies en tout genre.
+                      </p>
+                    </article>
+                </div>
+              </section>
+           </div>
+    </main>
+
+
+
+    <div class="separation blue" id="Profil" data-aos="flip-left"><h1>Mon profil</h2></div>
+	<div id="parcours" data-aos="flip-right">
+			  <div class="conteneur2 gauche" data-aos="fade-up">
+			    <div class="contenu">
+			      <h2>Actuellement</h2>
+			      <p>Licence (BAC+3) à l'Université Paris-Est Créteil (UPEC)</p>
+			    </div>
+			  </div>
+			  <div class="conteneur2 droite" data-aos="fade-up">
+			    <div class="contenu">
+			      <h2>06/2017</h2>
+			      <p>Téléconseiller pour la société <a style="color:#8B8B8B" href="http://www.groupeh2a.com/">H2A</a>
+              Dans le cadre du plan «canicule» pour aider les personnes agées ainsi qu’une enquête pour le ministère du logement.
+            </p>
+			    </div>
+			  </div>
+			  <div class="conteneur2 gauche" data-aos="fade-up">
+			    <div class="contenu">
+			      <h2>2016-2014</h2>
+			      <p>Bac sciences et technologies de l’industrie et du développement durable (mention BIEN)</p>
+			    </div>
+			  </div>
+			  <div class="conteneur2 droite" data-aos="fade-up">
+			    <div class="contenu">
+			      <h2>2012</h2>
+			      <p>stage en tant que réparateur de cuisine professionnel</p>
+			    </div>
+			  </div>
+			</div>
+
+      <div class="separation gray" id="Competences" data-aos="flip-right"><h1>Mes compétences</h2></div>
+        <div id="competence" data-aos="flip-right">
+          <div id="logo_div">
+            <img src="images\Logo_blanc\indesign.svg" title="indesign" class="logo" data-aos="zoom-in-down">
+            <img src="images\Logo_blanc\icon.svg" title="Illustrator" class="logo"data-aos="zoom-in-down">
+            <img src="images\Logo_blanc\c-logo.svg" title="Language C" class="logo" data-aos="zoom-in-down">
+            <img src="images\Logo_blanc\html-5-logo.svg" title="Html 5" class="logo" data-aos="zoom-in-down">
+            <img src="images\Logo_blanc\css-3.svg" title="CSS 3" class="logo" data-aos="zoom-in-down">
+            <img src="images\Logo_blanc\js.svg" title="Javascript" class="logo" data-aos="zoom-in-down">
+            <img src="images\Logo_blanc\office.svg" title="Office 365" class="logo" data-aos="zoom-in-down">
+            <img src="images\Logo_blanc\JQuery_logo_text.svg" title="JQuery" class="logo" data-aos="zoom-in-down">
+            <img src="images\Logo_blanc\icons8-jquery.svg" title="JQuery" class="logo" data-aos="zoom-in-down">
+          </div>
+        </div>
+
+
+      <div class="separation gray" id="Projets" data-aos="flip-left"><h1>Mes projets</h2></div>
+      <div id="projets">
+        <div class="fond_gauche" data-aos="flip-right">
+          <article>
+            <p>Conception d'une <strong>Balise de mer autonome</strong> (projet d'étude).</p>
+          </article>
+          <!--Rajouter vidéo ou image-->
+          <div data-aos="zoom-out-left">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/h-kGBnJ0JnI?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="fond_droit" data-aos="flip-left">
+          <!--Rajouter vidéo ou image-->
+          <img src="images/fake_project.jpg" alt="Fake project" width="560" height="315">
+          <article>
+            <p>[---------- Fake project ----------]</p>
+          </article>
+        </div>
+      </div>
+
+    <footer id="contact">
+                          <aside class="color_white footer_info" data-aos="fade-down">
+                            <img alt="Email" src="images/smartphone.svg" width="100px" height="75px">
+                            <div>
+                              <h5>Portable</h5>
+                              <h6>06 52 02 62 84</h6>
+                            </div>
+                          </aside>
+                          <aside class="color_white footer_info" data-aos="fade-down">
+                              <img alt="Email" src="images/email.svg" width="100px" height="75px">
+                              <div>
+                                   <h5>E-mail</h5>
+                                   <h6>tcasc.pro@gmail.com</h6>
+                              </div>
+                          </aside>
+                          <aside class="color_white footer_info" data-aos="fade-down">
+                              <img alt="User" src="images/user.svg" width="100px" height="75px">
+                              <div>
+                              <h5>Suivez moi</h5>
+                              </div>
+                          </aside>
+                          <h5 id="message" style="color:white">Merci de votre vistite !!</h5>
+   </footer>
+
+    <script src="script/jquery-3.3.1.min.js"></script>
+    <script src="plugin/aos/aos.js"></script>
+    <script src="script/animate.js"></script>
+
+
+</body>
+</html>
