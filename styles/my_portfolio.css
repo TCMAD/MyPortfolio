@@ -535,7 +535,6 @@ body {
 /********** Responsive ******************/
 @media screen and (max-width: 1264px)
 {
-
     #title
     {
 			margin: auto;
@@ -548,7 +547,6 @@ body {
 		footer
 		{
 			flex-direction: column;
-			min-height: 400px;
 		}
 		#message
 		{
